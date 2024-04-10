@@ -21,7 +21,7 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.7 # or whichever version you are using
+          ruby-version: 3.0.3 # Specify the Ruby version you want to use
       
       - name: Install dependencies
         run: |
@@ -30,6 +30,7 @@ jobs:
       
       - name: Run RuboCop
         run: bundle exec rubocop
+
   rspec:
     name: Run RSpec
     runs-on: ubuntu-latest
@@ -40,7 +41,7 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.7 # or whichever version you are using
+          ruby-version: 3.0.3 # Specify the Ruby version you want to use
       
       - name: Install dependencies
         run: |
