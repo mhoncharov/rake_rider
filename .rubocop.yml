@@ -1,5 +1,5 @@
 # .rubocop.yml
 
 AllCops:
-  TargetRubyVersion: '3'
+  TargetRubyVersion: '3.0'
   NewCops: enable

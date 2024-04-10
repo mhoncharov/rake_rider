@@ -41,7 +41,7 @@ Gem::Specification.new do |spec|
   spec.email         = [email]
   spec.files         = files
   spec.require_paths = ['lib']
-  spec.required_ruby_version = '>=3'
+  spec.required_ruby_version = '>=3.0'
 
   # Dependencies
   spec.add_runtime_dependency 'rails', '>= 4.0'
